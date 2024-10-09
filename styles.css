@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    margin: 0;
+    background: url("t1lineup.png");
+    background-size: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+}
+.logo{
+    padding: 0px;
+    width: 80px;
+}
+p, h1{
+    background-color: white;
+    color: red;
+}
+.main-navigation{
+    background-color: white;
+    color: red;
+}
+
+.main-navigation a{
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 0px;
+}
+
+.main-navigation a:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
